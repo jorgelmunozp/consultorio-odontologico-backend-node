@@ -3,7 +3,6 @@
   --darkgray-color: #555555;
   --gray-color: #bbbbbb;
   --lightgray-color: #dddddd;
-  --main-background-color: #5285c5;
   --main-color: #5285c5;
   --main-transparent-color: rgba(82, 133, 197, 0.25);
   --white-color: #ffffff;
@@ -106,7 +105,7 @@ nav div a:hover{
   padding-right: 5%;
 }
 #contenido h3 {
-  color: var(--main-background-color);
+  color: var(--main-color);
 }
 #contenido div {
   display: inline-block;
@@ -152,7 +151,7 @@ input[type=submit]:hover {
  /*************************** FOOTER **************************/
  #piepagina{
   text-align: center;
-  color: var(--main-background-color);
+  color: var(--main-color);
   padding-left: 5%;
   padding-right: 5%;
 }
