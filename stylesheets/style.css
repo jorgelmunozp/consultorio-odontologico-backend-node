@@ -7,7 +7,13 @@
 }
 
 *{
-  font: 3vmin 'Century Gothic', Helvetica, Arial, sans-serif;
+  font: 3vmin 'CenturyGothic', 'Century Gothic', Arial, sans-serif;
+}
+@font-face {
+  font-family: "CenturyGothic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/CenturyGothic.ttf") format("truetype");
 }
 
 body {
