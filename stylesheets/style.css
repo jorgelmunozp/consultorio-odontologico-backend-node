@@ -1,0 +1,179 @@
+:root {
+  --main-background-color: #5285c5;
+  --main-color: #5285c5;
+  --darkgray-color: #555;
+  --white-color: #ffffff;
+}
+
+*{
+  font: 20px 'Century Gothic', Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  /* background: url("/images/fondo.jpg"); */
+  /* background-size: cover; */
+  background-color: #fdfdfd;
+  font-size: 30px;
+  color: transparent;
+}
+
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+
+/*************************** HEADER **************************/
+#header{							/***** Contenedor div del header *****/
+  width:100%;
+  height: 10vmin;
+  position:static;
+  border-bottom: 1px solid var(--main-color);
+  /* filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 1)); */
+}
+
+#header table{								          /***** tabla slogan *****/
+  margin-left: auto;
+  margin-right: auto;
+}
+#header img{								          /***** Logo header *****/
+  width: 5vmin;
+}
+#header h1 {								        /***** Titulo header *****/
+  position: static;
+  margin-top: 2vmin;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--main-color);
+  font-size: 3.5vmin;
+}
+
+#header #fotoPerfil{                        /****** Foto perfil *****/
+  width: 30px;
+  margin-top: 35px;
+  right: 30px;
+  padding: 2px;
+  position: absolute;
+}
+#header #userPerfil{                   /****** usuario perfil *****/
+  color: darkgray;
+  right: 90px;
+  margin-top: 40px;
+  position: absolute;
+}
+#header #fecha{                        /****** fecha actual *****/
+  color: darkgray;
+  left: 40px;
+  margin-top: 40px;
+  position: absolute;
+}
+
+/*************************** MENU NAV **************************/
+nav div{
+  width:100%;
+  text-align: right;
+  margin-top: -85px;
+}
+nav div a{
+  color:var(--white-color);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  font-weight: bold;
+  text-decoration: none;
+  text-align:center;
+  padding: 15px 2.5% 15px 2.5%;
+  display:inline-block;
+}
+nav div a:hover{
+  color:var(--white-color);
+  background-color:rgba(0,0,0,0.1);
+}
+
+#menu {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  top: 2vmin;
+  right: 2vmin;
+}
+
+/*************************** BODY **************************/
+#encabezado{
+  text-align: center;
+}
+#encabezado h1{
+  font-size: 3vmin;
+  color: var(--main-background-color);
+}
+
+#contenido{
+  text-align: center;
+}
+#contenido h3 {
+  color: var(--main-background-color);
+}
+#contenido div{
+  display: inline-block;
+  float: left;
+  width: 100%;
+}
+#contenido table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+#contenido table th{
+  background-color: var(--main-background-color);
+  color: var(--white-color);
+  padding: 0 1vw;
+}
+#contenido table td{
+  color: var(--darkgray-color);
+  padding: 0.25vmin 1vmin;
+}
+#contenido table tr:nth-child(even){background-color: #fff}
+#contenido table tr:nth-child(odd){background-color: #f1f1f1}
+#grupoFrutas{
+   margin-left: 0!important;
+}
+#tablaDatos, #tablaDatos tr{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+}
+#tablaDatos th{
+  border: 1px inset white;
+  font-weight: bolder;
+}
+#tablaDatos tr, #tablaDatos td{
+  border: 1px inset white;
+}
+
+
+input[type=submit]{
+  color: var(--white-color);
+  background-color: var(--main-background-color);
+  padding: 15px 20px 15px 20px;
+  border: 0.5px solid var(--main-background-color);
+  border-radius: 30px;
+  font-size: medium;
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 2px rgba(100, 100, 100, 0.5));
+}
+
+
+
+
+ /*************************** FOOTER **************************/
+ #piepagina{
+  text-align: center;
+  color: var(--main-background-color);
+}
+
+.tratamientos {
+  width: 100%;
+}
+
+
