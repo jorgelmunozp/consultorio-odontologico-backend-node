@@ -25,20 +25,20 @@ fetch(urlApiCitas)                 //API REST para la simulación de la tabla tr
     let contenidoCitas = document.getElementById('contenidoCitas');
 
     const headerCitas = `
-    <div class="columnaContenido">
-      <hr/>
-      <h3> Citas Registradas </h3>
-      <hr/>
-      <table border='1'>
-        <tr>
-          <th> N° </th>
-          <th> Paciente </th>
-          <th> Fecha </th>
-          <th> Hora </th>
-          <th> Consultorio </th>
-          <th> Médico </th>
-          <th> Tratamiento </th>
-        </tr>
+      <div class="columnaContenido">
+        <hr/>
+        <h3> Citas Médicas </h3>
+        <hr/>
+        <table border='1'>
+          <tr>
+            <th> N° </th>
+            <th> Paciente </th>
+            <th> Fecha </th>
+            <th> Hora </th>
+            <th> Consultorio </th>
+            <th> Médico </th>
+            <th> Tratamiento </th>
+          </tr>
     `;
 
     let bodyCitas = [];
@@ -62,8 +62,7 @@ fetch(urlApiCitas)                 //API REST para la simulación de la tabla tr
         <br></br><br></br><br></br><br></br>
     `;
 
-    contenidoCitas.innerHTML = headerCitas + bodyCitas + footerCitas;
-
+    contenidoCitas.innerHTML = headerCitas + bodyCitas.join('') + footerCitas;
 });
 
 
@@ -109,8 +108,7 @@ fetch(urlApiPacientes)                 //API REST para la simulación de la tabl
             <br></br><br></br><br></br><br></br><br></br>
           `;
 
-          contenidoPacientes.innerHTML = headerPacientes + bodyPacientes + footerPacientes;
-
+          contenidoPacientes.innerHTML = headerPacientes + bodyPacientes.join('') + footerPacientes;
 });
 
 
@@ -153,8 +151,7 @@ fetch(urlApiTratamientos)                 //API REST para la simulación de la t
             <br></br><br></br><br></br><br></br><br></br><br></br>
       `;
 
-      contenidoTratamientos.innerHTML = headerTratamientos + bodyTratamientos + footerTratamientos; 
-
+      contenidoTratamientos.innerHTML = headerTratamientos + bodyTratamientos.join('') + footerTratamientos; 
   });
 
 
@@ -197,7 +194,7 @@ fetch(urlApiDoctores)                 //API REST para la simulación de la tabla
             <br></br><br></br><br></br><br></br><br></br><br></br>
       `;
 
-      contenidoDoctores.innerHTML = headerDoctores + bodyDoctores + footerDoctores;
+      contenidoDoctores.innerHTML = headerDoctores + bodyDoctores.join('') + footerDoctores;
   });
 
   
@@ -239,6 +236,5 @@ fetch(urlApiDoctores)                 //API REST para la simulación de la tabla
 
         `;
 
-        contenidoConsultorios.innerHTML = headerConsultorios + bodyConsultorios + footerConsultorios;
-
+        contenidoConsultorios.innerHTML = headerConsultorios + bodyConsultorios.join('') + footerConsultorios;
   });

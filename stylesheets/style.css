@@ -1,31 +1,33 @@
 :root {
+  --dark-color: #212529;
+  --darkgray-color: #555555;
+  --gray-color: #bbbbbb;
+  --lightgray-color: #dddddd;
   --main-background-color: #5285c5;
   --main-color: #5285c5;
-  --darkgray-color: #555;
+  --main-transparent-color: rgba(82, 133, 197, 0.25);
   --white-color: #ffffff;
 }
 
 *{
-  font: 20px 'Century Gothic', Helvetica, Arial, sans-serif;
+  font: 3vmin 'Century Gothic', Helvetica, Arial, sans-serif;
 }
 
 body {
   margin: 0;
-  /* background: url("/images/fondo.jpg"); */
-  /* background-size: cover; */
-  background-color: #fdfdfd;
-  font-size: 30px;
-  color: transparent;
+  background-color: #ffffff;
+  font-size: 3vmin;
 }
 
 a {
   color: var(--main-color);
   text-decoration: none;
 }
-
+hr { opacity: 0.5; }
 
 /*************************** HEADER **************************/
 #header{							/***** Contenedor div del header *****/
+  background-color: var(--dark-color);
   width:100%;
   height: 10vmin;
   position:static;
@@ -45,7 +47,7 @@ a {
   margin-top: 2vmin;
   margin-left: auto;
   margin-right: auto;
-  color: var(--main-color);
+  color: var(--white-color);
   font-size: 3.5vmin;
 }
 
@@ -98,82 +100,63 @@ nav div a:hover{
 }
 
 /*************************** BODY **************************/
-#encabezado{
-  text-align: center;
-}
-#encabezado h1{
-  font-size: 3vmin;
-  color: var(--main-background-color);
-}
-
 #contenido{
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 #contenido h3 {
   color: var(--main-background-color);
 }
-#contenido div{
+#contenido div {
   display: inline-block;
   float: left;
   width: 100%;
 }
-#contenido table{
+#contenido table {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   border-collapse: collapse;
+  border-color: var(--lightgray-color);
 }
-#contenido table th{
-  background-color: var(--main-background-color);
+#contenido table th {
+  background-color: var(--main-color);
   color: var(--white-color);
-  padding: 0 1vw;
+  font-size: 2.5vmin;
+  padding: 0.75vmin 1vw;
+  border-bottom: 1px solid var(--dark-color);
 }
-#contenido table td{
-  color: var(--darkgray-color);
-  padding: 0.25vmin 1vmin;
+#contenido table td {
+  color: var(--dark-color);
+  padding: 1vmin 1vmin;
 }
-#contenido table tr:nth-child(even){background-color: #fff}
-#contenido table tr:nth-child(odd){background-color: #f1f1f1}
-#grupoFrutas{
-   margin-left: 0!important;
-}
-#tablaDatos, #tablaDatos tr{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid white;
-}
-#tablaDatos th{
-  border: 1px inset white;
-  font-weight: bolder;
-}
-#tablaDatos tr, #tablaDatos td{
-  border: 1px inset white;
-}
+#contenido table tr:nth-child(even) { background-color: var(--white-color); }
+#contenido table tr:nth-child(odd) { background-color: #f1f1f1;}
+#contenido table tr:nth-child(even):hover { background-color: var(--main-transparent-color); }
+#contenido table tr:nth-child(odd):hover { background-color: var(--main-transparent-color); }
 
-
-input[type=submit]{
-  color: var(--white-color);
-  background-color: var(--main-background-color);
-  padding: 15px 20px 15px 20px;
-  border: 0.5px solid var(--main-background-color);
-  border-radius: 30px;
-  font-size: medium;
+input[type=submit] {
+  color: var(--main-color);
+  background-color: transparent;
+  padding: 1.5vmin 2vmin 1.5vmin 2vmin;
+  border-radius: 100vmax;
+  font-size: 2.5vmin;
   cursor: pointer;
-  filter: drop-shadow(2px 2px 2px rgba(100, 100, 100, 0.5));
 }
-
-
-
+input[type=submit]:hover {
+  color: var(--white-color);
+}
 
  /*************************** FOOTER **************************/
  #piepagina{
   text-align: center;
   color: var(--main-background-color);
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .tratamientos {
   width: 100%;
 }
-
-
