@@ -1,16 +1,16 @@
-// const ip = 'localhost';
-// const puerto = '3000';
-// const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
-// const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
-// const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
-// const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
-// const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
+const ip = 'localhost';
+const puerto = '3000';
+const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
+const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
+const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
+const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
+const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
 
-const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos';
-const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores';
-const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas';
-const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes';
-const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios';
+// const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos';
+// const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores';
+// const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas';
+// const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes';
+// const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios';
 
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
