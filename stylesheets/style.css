@@ -7,7 +7,7 @@
 }
 
 *{
-  font: 3vmin 'CenturyGothic', 'Century Gothic', Arial, sans-serif;
+  font: 2.5vmin 'CenturyGothic', 'Century Gothic', Arial, sans-serif;
 }
 @font-face {
   font-family: "CenturyGothic";
@@ -35,7 +35,6 @@ hr { opacity: 0.5; }
   height: 10vmin;
   position:static;
   border-bottom: 1px solid var(--main-color);
-  /* filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 1)); */
 }
 
 #header table{								          /***** tabla slogan *****/
@@ -51,7 +50,7 @@ hr { opacity: 0.5; }
   margin-left: auto;
   margin-right: auto;
   color: var(--white-color);
-  font-size: 3.5vmin;
+  font-size: 3vmin;
 }
 
 #header #fotoPerfil{                        /****** Foto perfil *****/
@@ -127,7 +126,7 @@ nav div a:hover{
 #contenido table th {
   background-color: var(--main-color);
   color: var(--white-color);
-  font-size: 2.5vmin;
+  font-size: 2.2vmin;
   padding: 0.75vmin 1vw;
   border-bottom: 1px solid var(--dark-color);
 }
