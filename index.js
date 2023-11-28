@@ -32,7 +32,7 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
 });
 
 fetch(urlApiCitas)                 //API REST para la simulación de la tabla tratamientos de la base de datos
-  .then(response => response.json())
+  .then(response => console.log(response.json()))
   .then(citas => {
 
       let contenidoCitas = document.getElementById('contenidoCitas');
