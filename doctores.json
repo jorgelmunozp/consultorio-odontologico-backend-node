@@ -1,5 +1,4 @@
-{
-    "doctores": [
+[
       {
         "doctor": {
           "nombre": "Jorge",
@@ -88,5 +87,4 @@
         },
         "id": 12
       }
-    ]
-  }
+]

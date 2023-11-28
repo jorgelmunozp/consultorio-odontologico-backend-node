@@ -1,5 +1,4 @@
-{
-  "pacientes": [
+[
     {
       "paciente": {
         "identificacion": "1061",
@@ -110,5 +109,4 @@
       },
       "id": 11
     }
-  ]
-}
+]

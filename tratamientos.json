@@ -1,5 +1,4 @@
-{
-    "tratamientos": [
+[
       {
         "tratamiento": {
           "nombre": "Diseño Sonrisa",
@@ -56,5 +55,4 @@
         },
         "id": 9
       }
-    ]
-  }
+]

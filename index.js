@@ -34,7 +34,6 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
 fetch(urlApiCitas)                 //API REST para la simulación de la tabla tratamientos de la base de datos
   .then(response => response.json())
   .then(citas => {
-    // citas = citas.citas;          // Si se lee la API /citas.json
     let contenidoCitas = document.getElementById('contenidoCitas');
 
       const headerCitas = `
@@ -80,8 +79,6 @@ fetch(urlApiCitas)                 //API REST para la simulación de la tabla tr
 fetch(urlApiPacientes)                 //API REST para la simulación de la tabla tratamientos de la base de datos
   .then(response => response.json())
   .then(pacientes => {
-      pacientes = pacientes.pacientes;      // Si se lee la API /pacientes.json
-
       let contenidoPacientes = document.getElementById('contenidoPacientes');
 
       const headerPacientes = `
@@ -125,8 +122,6 @@ fetch(urlApiPacientes)                 //API REST para la simulación de la tabl
 fetch(urlApiTratamientos)                 //API REST para la simulación de la tabla tratamientos de la base de datos
   .then(response => response.json())
   .then(tratamientos => {
-      tratamientos = tratamientos.tratamientos; // Si se lee la API /tratamientos.json
-
       let contenidoTratamientos = document.getElementById('contenidoTratamientos');
 
       const headerTratamientos = `
@@ -166,8 +161,6 @@ fetch(urlApiTratamientos)                 //API REST para la simulación de la t
 fetch(urlApiDoctores)                 //API REST para la simulación de la tabla doctores de la base de datos
   .then(response => response.json())
   .then(doctores => {
-      doctores = doctores.doctores; // Si se lee la API /doctores.json
-
       let contenidoDoctores = document.getElementById('contenidoDoctores');
 
       const headerDoctores =  `  
@@ -207,8 +200,6 @@ fetch(urlApiDoctores)                 //API REST para la simulación de la tabla
   fetch(urlApiConsultorios)                 //API REST para la simulación de la tabla tratamientos de la base de datos
     .then(response => response.json())
     .then(consultorios => {
-        consultorios = consultorios.consultorios; // Si se lee la API /consultorios.json
-
         let contenidoConsultorios = document.getElementById('contenidoConsultorios');
   
         const headerConsultorios = ` 
@@ -243,8 +234,3 @@ fetch(urlApiDoctores)                 //API REST para la simulación de la tabla
 
         contenidoConsultorios.innerHTML = headerConsultorios + bodyConsultorios.join('') + footerConsultorios;
   });
-
-  // const json = {"hola":"hi"};
-  // console.log(json)
-
-  // fs.writeFile('myjsonfile.json', json, 'utf8', callback);

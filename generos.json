@@ -1,5 +1,4 @@
-{
-    "generos": [
+[
       {
         "genero": {
           "nombre": "Femenino"
@@ -18,5 +17,4 @@
         },
         "id": 3
       }
-    ]
-  }
+]
