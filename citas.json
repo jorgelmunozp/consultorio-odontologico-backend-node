@@ -1,5 +1,4 @@
-{
-    "citas": [
+[
       {
         "cita": {
           "paciente": "Diana Rojas",
@@ -221,4 +220,3 @@
         "id": 59
       }
     ]
-  }
