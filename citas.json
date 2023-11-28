@@ -219,17 +219,6 @@
           "tratamiento": "Blanqueamiento"
         },
         "id": 59
-      },
-      {
-        "cita": {
-          "paciente": "Natalia Londoño",
-          "fecha": "2023-11-27",
-          "hora": "14:29",
-          "consultorio": "302",
-          "doctor": "Erika Serna",
-          "tratamiento": "Blanqueamiento"
-        },
-        "id": 60
       }
     ]
   }
