@@ -1,25 +1,36 @@
 // DEV
 // const ip = 'localhost';
 // const puerto = '3000';
-// const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
-// const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
 // const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
 // const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
+// const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
 // const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
+// const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
+// const urlApiEspecialidades = 'http://'+ip+':'+puerto+'/especialidades';
+// const urlApiGeneros = 'http://'+ip+':'+puerto+'/generos';
+// const urlApiEpss = 'http://'+ip+':'+puerto+'/epss';
+
 
 // NON-PROD
-const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
-const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
 const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas.json';
 const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes.json';
+const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
 const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios.json';
+const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
+const urlApiEspecialidades = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/especialidades.json';
+const urlApiGeneros = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/generos.json';
+const urlApiEpss = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/epss.json';
 
 // PROD
-// const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos';
-// const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores';
 // const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas';
 // const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes';
+// const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores';
 // const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios';
+// const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos';
+// const urlApiEspecialidades = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/especialidades';
+// const urlApiGeneros = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/generos';
+// const urlApiEpss = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/epss';
+
 
 const formatterPeso = new Intl.NumberFormat('es-CO', {   //Formato moneda $ pesos Colmbianos
   style: 'currency',
@@ -31,7 +42,7 @@ const formatterMiles = new Intl.NumberFormat('es-CO', {   //Formato miles para c
   minimumFractionDigits: 0
 });
 
-fetch(urlApiCitas)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+fetch(urlApiCitas)                 //API REST para la simulación de la tabla citas de la base de datos
   .then(response => response.json())
   .then(citas => {
     let contenidoCitas = document.getElementById('contenidoCitas');
@@ -76,7 +87,7 @@ fetch(urlApiCitas)                 //API REST para la simulación de la tabla tr
       contenidoCitas.innerHTML = headerCitas + bodyCitas.join('') + footerCitas;
 });
 
-fetch(urlApiPacientes)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+fetch(urlApiPacientes)                 //API REST para la simulación de la tabla pacientes de la base de datos
   .then(response => response.json())
   .then(pacientes => {
       let contenidoPacientes = document.getElementById('contenidoPacientes');
@@ -197,7 +208,7 @@ fetch(urlApiDoctores)                 //API REST para la simulación de la tabla
           contenidoDoctores.innerHTML = headerDoctores + bodyDoctores.join('') + footerDoctores;
   });
 
-  fetch(urlApiConsultorios)                 //API REST para la simulación de la tabla tratamientos de la base de datos
+  fetch(urlApiConsultorios)                 //API REST para la simulación de la tabla consultorios de la base de datos
     .then(response => response.json())
     .then(consultorios => {
         let contenidoConsultorios = document.getElementById('contenidoConsultorios');

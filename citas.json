@@ -1,222 +1,1019 @@
 [
-      {
-        "cita": {
-          "paciente": "Diana Rojas",
-          "fecha": "2023-11-25",
-          "hora": "14:39",
-          "consultorio": "402",
-          "doctor": "Jenifer Sarria",
-          "tratamiento": "Odontopediatría"
-        },
-        "id": 1
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño"
       },
-      {
-        "cita": {
-          "paciente": "Juan Lleras",
-          "fecha": "2023-11-25",
-          "hora": "15:02",
-          "consultorio": "302",
-          "doctor": "Johana Dorado",
-          "tratamiento": "Extracción"
-        },
-        "id": 2
+      "fecha": "2023-11-26",
+      "hora": "14:45",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño Sonrisa"
       },
-      {
-        "cita": {
-          "paciente": "Jose Roman",
-          "fecha": "2023-11-25",
-          "hora": "15:26",
-          "consultorio": "302",
-          "doctor": "Antonio Restrepo",
-          "tratamiento": "Cirugía"
-        },
-        "id": 10
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna",
+        "identificacion": "1084",
+        "genero": "Femenino",
+        "especialidad": "Periodoncista"
       },
-      {
-        "cita": {
-          "paciente": "Pepe Sanz",
-          "fecha": "2023-11-25",
-          "hora": "15:26",
-          "consultorio": "201",
-          "doctor": "Lorenzo Lopez",
-          "tratamiento": "Higiene"
-        },
-        "id": 26
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 1
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño",
+        "identificacion": "1067",
+        "genero": "Femenino",
+        "eps": "SOS"
       },
-      {
-        "cita": {
-          "paciente": "Natalia Londoño",
-          "fecha": "2023-11-25",
-          "hora": "15:42",
-          "consultorio": "301",
-          "doctor": "Andrea Reyes",
-          "tratamiento": "Blanqueamiento"
-        },
-        "id": 31
+      "fecha": "2023-11-25",
+      "hora": "15:02",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño Sonrisa"
       },
-      {
-        "cita": {
-          "paciente": "Luisa Vasquez",
-          "fecha": "2023-11-25",
-          "hora": "15:42",
-          "consultorio": "402",
-          "doctor": "Johana Dorado",
-          "tratamiento": "Odontopediatría"
-        },
-        "id": 35
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna",
+        "identificacion": "1084",
+        "genero": "Femenino",
+        "especialidad": "Periodoncista"
       },
-      {
-        "cita": {
-          "paciente": "Paola Muñoz",
-          "fecha": "2023-11-25",
-          "hora": "15:49",
-          "consultorio": "501",
-          "doctor": "Jenifer Sarria",
-          "tratamiento": "Imagenología"
-        },
-        "id": 36
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 2
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Adriana",
+        "apellido": "Torres"
       },
-      {
-        "cita": {
-          "paciente": "Ana Marin",
-          "fecha": "2023-11-25",
-          "hora": "15:49",
-          "consultorio": "501",
-          "doctor": "Jose Castillo",
-          "tratamiento": "Diseño"
-        },
-        "id": 40
+      "fecha": "2023-11-25",
+      "hora": "15:26",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño Sonrisa"
       },
-      {
-        "cita": {
-          "paciente": "Diana Rojas",
-          "fecha": "2023-11-25",
-          "hora": "15:49",
-          "consultorio": "501",
-          "doctor": "Jorge Muñoz",
-          "tratamiento": "Extracción"
-        },
-        "id": 41
+      "doctor": {
+        "nombre": "Jenifer",
+        "apellido": "Sarria"
       },
-      {
-        "cita": {
-          "paciente": "Lorena Muñoz",
-          "fecha": "2023-11-25",
-          "hora": "17:34",
-          "consultorio": "101",
-          "doctor": "Jorge Muñoz",
-          "tratamiento": "Diseño Sonrisa"
-        },
-        "id": 42
+      "tratamiento": "Imagenología"
+    },
+    "id": 10
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Pepe",
+        "apellido": "Sanz"
       },
-      {
-        "cita": {
-          "paciente": "Natalia Londoño",
-          "fecha": "2023-11-25",
-          "hora": "17:45",
-          "consultorio": "401",
-          "doctor": "Edwin Perez",
-          "tratamiento": "Diseño Sonrisa"
-        },
-        "id": 43
+      "fecha": "2023-11-25",
+      "hora": "15:26",
+      "consultorio": {
+        "numero": "201",
+        "nombre": "Prótesis"
       },
-      {
-        "cita": {
-          "paciente": "Larry Vasquez",
-          "fecha": "2023-11-25",
-          "hora": "17:46",
-          "consultorio": "101",
-          "doctor": "Jorge Muñoz",
-          "tratamiento": "Odontopediatría"
-        },
-        "id": 44
+      "doctor": {
+        "nombre": "Lorenzo",
+        "apellido": "Lopez"
       },
-      {
-        "cita": {
-          "paciente": "Luisa Vasquez",
-          "fecha": "2023-11-27",
-          "hora": "14:17",
-          "consultorio": "502",
-          "doctor": "Andrea Reyes",
-          "tratamiento": "Diseño Sonrisa"
-        },
-        "id": 49
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 26
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño"
       },
-      {
-        "cita": {
-          "paciente": "Larry Vasquez",
-          "fecha": "2023-11-27",
-          "hora": "14:17",
-          "consultorio": "101",
-          "doctor": "Jorge Muñoz",
-          "tratamiento": "Diseño Sonrisa"
-        },
-        "id": 52
+      "fecha": "2023-11-25",
+      "hora": "15:42",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño Sonrisa"
       },
-      {
-        "cita": {
-          "paciente": "Diana Rojas",
-          "fecha": "2023-11-27",
-          "hora": "14:26",
-          "consultorio": "101",
-          "doctor": "Jorge Muñoz",
-          "tratamiento": "Blanqueamiento"
-        },
-        "id": 53
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
       },
-      {
-        "cita": {
-          "paciente": "Larry Vasquez",
-          "fecha": "2023-11-27",
-          "hora": "14:27",
-          "consultorio": "401",
-          "doctor": "Edwin Perez",
-          "tratamiento": "Diseño Sonrisa"
-        },
-        "id": 54
+      "tratamiento": "Extracción"
+    },
+    "id": 31
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez"
       },
-      {
-        "cita": {
-          "paciente": "Ana Marin",
-          "fecha": "2023-11-27",
-          "hora": "14:27",
-          "consultorio": "502",
-          "doctor": "Andrea Reyes",
-          "tratamiento": "Odontopediatría"
-        },
-        "id": 55
+      "fecha": "2023-11-25",
+      "hora": "15:42",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
       },
-      {
-        "cita": {
-          "paciente": "Luisa Vasquez",
-          "fecha": "2023-11-27",
-          "hora": "14:27",
-          "consultorio": "502",
-          "doctor": "Lorenzo Lopez",
-          "tratamiento": "Odontopediatría"
-        },
-        "id": 56
+      "doctor": {
+        "nombre": "Johana",
+        "apellido": "Dorado"
       },
-      {
-        "cita": {
-          "paciente": "Natalia Londoño",
-          "fecha": "2023-11-27",
-          "hora": "14:29",
-          "consultorio": "302",
-          "doctor": "Erika Serna",
-          "tratamiento": "Blanqueamiento"
-        },
-        "id": 58
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 35
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Paola",
+        "apellido": "Muñoz"
       },
-      {
-        "cita": {
-          "paciente": "Juan Lleras",
-          "fecha": "2023-11-27",
-          "hora": "14:29",
-          "consultorio": "302",
-          "doctor": "Erika",
-          "tratamiento": "Blanqueamiento"
-        },
-        "id": 59
-      }
+      "fecha": "2023-11-25",
+      "hora": "15:49",
+      "consultorio": {
+        "numero": "501",
+        "nombre": "Rayos X"
+      },
+      "doctor": {
+        "nombre": "Jenifer",
+        "apellido": "Sarria"
+      },
+      "tratamiento": "Imagenología"
+    },
+    "id": 36
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Ana",
+        "apellido": "Marin"
+      },
+      "fecha": "2023-11-25",
+      "hora": "15:49",
+      "consultorio": {
+        "numero": "302",
+        "nombre": "Endodoncia"
+      },
+      "doctor": {
+        "nombre": "Johana",
+        "apellido": "Dorado"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 40
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Diana",
+        "apellido": "Rojas"
+      },
+      "fecha": "2023-11-25",
+      "hora": "15:49",
+      "consultorio": {
+        "numero": "501",
+        "nombre": "Rayos X"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo"
+      },
+      "tratamiento": "Extracción"
+    },
+    "id": 41
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Lorena",
+        "apellido": "Muñoz"
+      },
+      "fecha": "2023-11-25",
+      "hora": "17:34",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "Jorge",
+        "apellido": "Muñoz"
+      },
+      "tratamiento": "Cirugía"
+    },
+    "id": 42
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño"
+      },
+      "fecha": "2023-11-25",
+      "hora": "17:45",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Edwin",
+        "apellido": "Perez"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 43
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Larry",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-25",
+      "hora": "17:46",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "Jorge",
+        "apellido": "Muñoz"
+      },
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 44
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2024-10-21",
+      "hora": "21:57",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 49
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Larry",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:17",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 52
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Diana",
+        "apellido": "Rojas"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:26",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "Jorge",
+        "apellido": "Muñoz"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 53
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Larry",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:27",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Edwin",
+        "apellido": "Perez"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 54
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Ana",
+        "apellido": "Marin"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:27",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 55
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:27",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Lorenzo",
+        "apellido": "Lopez"
+      },
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 56
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:29",
+      "consultorio": {
+        "numero": "302",
+        "nombre": "Endodoncia"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 58
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Juan",
+        "apellido": "Lleras"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:29",
+      "consultorio": {
+        "numero": "602",
+        "nombre": "Cirugía"
+      },
+      "doctor": {
+        "nombre": "Johana",
+        "apellido": "Dorado"
+      },
+      "tratamiento": "Cirugía"
+    },
+    "id": 59
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:29",
+      "consultorio": {
+        "numero": "302",
+        "nombre": "Endodoncia"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 60
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Adriana",
+        "apellido": "Torres"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:30",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Jenifer",
+        "apellido": "Sarria"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 61
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Juan",
+        "apellido": "Lleras"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:34",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Mateo",
+        "apellido": "García"
+      },
+      "tratamiento": "Cirugía"
+    },
+    "id": 62
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Paola",
+        "apellido": "Muñoz"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:35",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 63
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:35",
+      "consultorio": {
+        "numero": "501",
+        "nombre": "Rayos X"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 64
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Pepe",
+        "apellido": "Sanz"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:39",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Rene",
+        "apellido": "Rosas"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 65
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Paola",
+        "apellido": "Muñoz"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:40",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 66
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Jose",
+        "apellido": "Roman"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:42",
+      "consultorio": {
+        "numero": "201",
+        "nombre": "Prótesis"
+      },
+      "doctor": {
+        "nombre": "Jose",
+        "apellido": "Castillo"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 67
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Jose",
+        "apellido": "Roman"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:43",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 68
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:44",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Edwin",
+        "apellido": "Perez"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 69
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Paola",
+        "apellido": "Muñoz"
+      },
+      "fecha": "2023-11-27",
+      "hora": "14:47",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 70
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Jose",
+        "apellido": "Roman"
+      },
+      "fecha": "2023-11-27",
+      "hora": "19:40",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 71
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Jose",
+        "apellido": "Roman"
+      },
+      "fecha": "2023-11-27",
+      "hora": "19:54",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 81
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Paola",
+        "apellido": "Muñoz"
+      },
+      "fecha": "2023-11-27",
+      "hora": "19:56",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 82
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Jose",
+        "apellido": "Roman"
+      },
+      "fecha": "2023-11-27",
+      "hora": "19:59",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 83
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Adriana",
+        "apellido": "Torres"
+      },
+      "fecha": "2023-11-27",
+      "hora": "20:07",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 85
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Pepe",
+        "apellido": "Sanz"
+      },
+      "fecha": "2023-11-27",
+      "hora": "20:09",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Rene",
+        "apellido": "Rosas"
+      },
+      "tratamiento": "Cirugía"
+    },
+    "id": 86
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez"
+      },
+      "fecha": "2023-11-27",
+      "hora": "20:30",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 87
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Natalia",
+        "apellido": "Londoño"
+      },
+      "fecha": "2023-11-27",
+      "hora": "21:05",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      },
+      "tratamiento": "Diseño Sonrisa"
+    },
+    "id": 89
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Juan",
+        "apellido": "Lleras"
+      },
+      "fecha": "2023-11-27",
+      "hora": "21:05",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo"
+      },
+      "tratamiento": "Ortodoncia"
+    },
+    "id": 90
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "testNamePac",
+        "apellido": "testLastnamePac",
+        "identificacion": "",
+        "genero": "",
+        "eps": ""
+      },
+      "fecha": "2024-10-25",
+      "hora": "20:34",
+      "consultorio": {
+        "numero": "",
+        "nombre": ""
+      },
+      "doctor": {
+        "nombre": "testDoctor",
+        "apellido": "testDoctorLastname",
+        "identificacion": "",
+        "genero": "",
+        "especialidad": ""
+      },
+      "tratamiento": "testTratamiento"
+    },
+    "id": 91
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Larry",
+        "apellido": "Vasquez",
+        "identificacion": "",
+        "genero": "",
+        "eps": ""
+      },
+      "fecha": "2024-10-25",
+      "hora": "22:26",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "testDoctor",
+        "apellido": "testDoctorLastname",
+        "identificacion": "",
+        "genero": "",
+        "especialidad": ""
+      },
+      "tratamiento": "Limpieza"
+    },
+    "id": 92
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Juan",
+        "apellido": "Roman",
+        "identificacion": "1062",
+        "genero": "Masculino",
+        "eps": "Compensar"
+      },
+      "fecha": "2024-10-26",
+      "hora": "06:53",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "Jorge",
+        "apellido": "Muñoz",
+        "identificacion": "1080",
+        "genero": "Masculino",
+        "especialidad": "Odontopediatría"
+      },
+      "tratamiento": "Blanqueamiento"
+    },
+    "id": 93
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Ana",
+        "apellido": "Marin",
+        "identificacion": "1069",
+        "genero": "Femenino",
+        "eps": "Emssanar"
+      },
+      "fecha": "2024-10-26",
+      "hora": "07:37",
+      "consultorio": {
+        "numero": "101",
+        "nombre": "Blanqueamiento"
+      },
+      "doctor": {
+        "nombre": "Jorge",
+        "apellido": "Muñoz",
+        "identificacion": "1080",
+        "genero": "Masculino",
+        "especialidad": "Odontopediatría"
+      },
+      "tratamiento": "Limpieza"
+    },
+    "id": 94
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Pepe",
+        "apellido": "Sanz",
+        "identificacion": "1070",
+        "genero": "Masculino",
+        "eps": "Cruz Blanca"
+      },
+      "fecha": "2024-10-26",
+      "hora": "07:40",
+      "consultorio": {
+        "numero": "701",
+        "nombre": "Recuperación"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna",
+        "identificacion": "1084",
+        "genero": "Femenino",
+        "especialidad": "Periodoncista"
+      },
+      "tratamiento": "Cirugía"
+    },
+    "id": 95
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Juan",
+        "apellido": "Lleras",
+        "identificacion": "1066",
+        "genero": "No binario",
+        "eps": "Sanitas"
+      },
+      "fecha": "2024-10-26",
+      "hora": "07:58",
+      "consultorio": {
+        "numero": "601",
+        "nombre": "Odontopediatría"
+      },
+      "doctor": {
+        "nombre": "Johana",
+        "apellido": "Dorado",
+        "identificacion": "1089",
+        "genero": "Femenino",
+        "especialidad": "Prótesis"
+      },
+      "tratamiento": "Odontopediatría"
+    },
+    "id": 96
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Larry",
+        "apellido": "Vasquez",
+        "identificacion": "1061",
+        "genero": "Masculino",
+        "eps": "Sanitas"
+      },
+      "fecha": "2024-10-26",
+      "hora": "18:19",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Lorenzo",
+        "apellido": "Lopez",
+        "identificacion": "1088",
+        "genero": "Masculino",
+        "especialidad": "Diseño Sonrisa"
+      },
+      "tratamiento": "Detartrajes"
+    },
+    "id": 98
+  },
+  {
+    "cita": {
+      "paciente": {
+        "nombre": "Luisa",
+        "apellido": "Vasquez",
+        "identificacion": "1064",
+        "genero": "No binario",
+        "eps": "SaludTotal"
+      },
+      "fecha": "2024-10-26",
+      "hora": "18:29",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño Sonrisa"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna",
+        "identificacion": "1084",
+        "genero": "Femenino",
+        "especialidad": "Periodoncista"
+      },
+      "tratamiento": "Detartrajes"
+    },
+    "id": 99
+  }
 ]

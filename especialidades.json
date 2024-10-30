@@ -1,0 +1,80 @@
+[
+    {
+      "especialidad": {
+        "nombre": "Diseño Sonrisa"
+      },
+      "id": 1
+    },
+    {
+      "especialidad": {
+        "nombre": "Blanqueamiento"
+      },
+      "id": 2
+    },
+    {
+      "especialidad": {
+        "nombre": "Ortodoncia"
+      },
+      "id": 3
+    },
+    {
+      "especialidad": {
+        "nombre": "Cirugía"
+      },
+      "id": 6
+    },
+    {
+      "especialidad": {
+        "nombre": "Extracción"
+      },
+      "id": 7
+    },
+    {
+      "especialidad": {
+        "nombre": "Imagenología"
+      },
+      "id": 8
+    },
+    {
+      "especialidad": {
+        "nombre": "Odontopediatría"
+      },
+      "id": 9
+    },
+    {
+      "especialidad": {
+        "nombre": "Endodoncia"
+      },
+      "id": 10
+    },
+    {
+      "especialidad": {
+        "nombre": "Detartrajes"
+      },
+      "id": 11
+    },
+    {
+      "especialidad": {
+        "nombre": "Higiene Oral"
+      },
+      "id": 12
+    },
+    {
+      "especialidad": {
+        "nombre": "Limpieza"
+      },
+      "id": 13
+    },
+    {
+      "especialidad": {
+        "nombre": "testEspecialidad"
+      },
+      "id": 14
+    },
+    {
+      "especialidad": {
+        "nombre": "zzz"
+      },
+      "id": 15
+    }
+  ]

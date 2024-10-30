@@ -1,58 +1,193 @@
 [
-      {
-        "tratamiento": {
-          "nombre": "Diseño Sonrisa",
-          "consultorio": "101",
-          "doctor": "Antonio Restrepo"
-        },
-        "id": 1
+  {
+    "tratamiento": {
+      "especialidad": "Diseño Sonrisa",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño Sonrisa"
       },
-      {
-        "tratamiento": {
-          "nombre": "Blanqueamiento",
-          "consultorio": "102",
-          "doctor": "Jorge Muñoz"
-        },
-        "id": 2
-      },
-      {
-        "tratamiento": {
-          "nombre": "Ortodoncia",
-          "consultorio": "201",
-          "doctor": "Mateo Garcia"
-        },
-        "id": 3
-      },
-      {
-        "tratamiento": {
-          "nombre": "Cirugía",
-          "consultorio": "302",
-          "doctor": "Lorenzo Lopez"
-        },
-        "id": 6
-      },
-      {
-        "tratamiento": {
-          "nombre": "Extracción",
-          "consultorio": "401",
-          "doctor": "Jose Castillo"
-        },
-        "id": 7
-      },
-      {
-        "tratamiento": {
-          "nombre": "Imagenología",
-          "consultorio": "402",
-          "doctor": "Jenifer Sarria"
-        },
-        "id": 8
-      },
-      {
-        "tratamiento": {
-          "nombre": "Odontopediatría",
-          "consultorio": "502",
-          "doctor": "Andrea Reyes"
-        },
-        "id": 9
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna",
+        "identificacion": "1084",
+        "genero": "Femenino",
+        "especialidad": "Periodoncista"
       }
+    },
+    "id": 1
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Blanqueamiento",
+      "consultorio": {
+        "numero": "102",
+        "nombre": "Higiene"
+      },
+      "doctor": {
+        "nombre": "Johana",
+        "apellido": "Dorado",
+        "identificacion": "1089",
+        "genero": "Femenino",
+        "especialidad": "Prótesis"
+      }
+    },
+    "id": 2
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Ortodoncia",
+      "consultorio": {
+        "numero": "201",
+        "nombre": "Prótesis"
+      },
+      "doctor": {
+        "nombre": "Mateo",
+        "apellido": "Garcia"
+      }
+    },
+    "id": 3
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Cirugía",
+      "consultorio": {
+        "numero": "602",
+        "nombre": "Cirugía"
+      },
+      "doctor": {
+        "nombre": "Johana",
+        "apellido": "Dorado"
+      }
+    },
+    "id": 6
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Extracción",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Jose",
+        "apellido": "Castillo"
+      }
+    },
+    "id": 7
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Imagenología",
+      "consultorio": {
+        "numero": "402",
+        "nombre": "Laboratorio"
+      },
+      "doctor": {
+        "nombre": "Jenifer",
+        "apellido": "Sarria"
+      }
+    },
+    "id": 8
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Odontopediatría",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Andrea",
+        "apellido": "Reyes"
+      }
+    },
+    "id": 9
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Endodoncia",
+      "consultorio": {
+        "numero": "302",
+        "nombre": "Endodoncia"
+      },
+      "doctor": {
+        "nombre": "Lorenzo",
+        "apellido": "Lopez"
+      }
+    },
+    "id": 10
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Detartrajes",
+      "consultorio": {
+        "numero": "401",
+        "nombre": "Detartraje"
+      },
+      "doctor": {
+        "nombre": "Rene",
+        "apellido": "Rosas"
+      }
+    },
+    "id": 11
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Higiene Oral",
+      "consultorio": {
+        "numero": "702",
+        "nombre": "Gerencia"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      }
+    },
+    "id": 12
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Limpieza",
+      "consultorio": {
+        "numero": "301",
+        "nombre": "Diseño"
+      },
+      "doctor": {
+        "nombre": "Erika",
+        "apellido": "Serna"
+      }
+    },
+    "id": 13
+  },
+  {
+    "tratamiento": {
+      "especialidad": "testTratamiento",
+      "consultorio": {
+        "numero": "702",
+        "nombre": "Gerencia"
+      },
+      "doctor": {
+        "nombre": "testDoctor",
+        "apellido": "testDoctorLastname"
+      }
+    },
+    "id": 14
+  },
+  {
+    "tratamiento": {
+      "especialidad": "zzz",
+      "consultorio": {
+        "numero": "502",
+        "nombre": "Periodoncia"
+      },
+      "doctor": {
+        "nombre": "Antonio",
+        "apellido": "Restrepo",
+        "identificacion": "1085",
+        "genero": "Masculino",
+        "especialidad": "Imagenología"
+      }
+    },
+    "id": 15
+  }
 ]
