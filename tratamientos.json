@@ -1,0 +1,130 @@
+[
+  {
+    "tratamiento": {
+      "especialidad": "Diseño Sonrisa",
+      "consultorio": "301 Diseño Sonrisa",
+      "doctor": "Erika Serna"
+    },
+    "id": 1
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Blanqueamiento",
+      "consultorio": "102 Higiene",
+      "doctor": "Johana Dorado"
+    },
+    "id": 2
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Ortodoncia",
+      "consultorio": "201 Prótesis",
+      "doctor": "Mateo Garcia"
+    },
+    "id": 3
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Cirugía",
+      "consultorio": "602 Cirugía",
+      "doctor": "Johana Dorado"
+    },
+    "id": 6
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Extracción",
+      "consultorio": "401 Detartraje",
+      "doctor": "Jose Castillo"
+    },
+    "id": 7
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Imagenología",
+      "consultorio": "402 Laboratorio",
+      "doctor": "Jenifer Sarria"
+    },
+    "id": 8
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Odontopediatría",
+      "consultorio": "502 Periodoncia",
+      "doctor": "Andrea Reyes"
+    },
+    "id": 9
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Endodoncia",
+      "consultorio": "302 Endodoncia",
+      "doctor": "Lorenzo Lopez"
+    },
+    "id": 10
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Detartrajes",
+      "consultorio": "401 Detartraje",
+      "doctor": "Rene Rosas"
+    },
+    "id": 11
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Higiene Oral",
+      "consultorio": "702 Gerencia",
+      "doctor": "Erika Serna"
+    },
+    "id": 12
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Limpieza",
+      "consultorio": "301 Diseño Sonrisa",
+      "doctor": "Erika Serna"
+    },
+    "id": 13
+  },
+  {
+    "tratamiento": {
+      "especialidad": "testTratamiento",
+      "consultorio": "702 Gerencia",
+      "doctor": "testDoctor testDoctorLastname"
+    },
+    "id": 14
+  },
+  {
+    "tratamiento": {
+      "especialidad": "zzz",
+      "consultorio": "502 Periodoncia",
+      "doctor": "Antonio Restrepo"
+    },
+    "id": 15
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Diseño Sonrisa",
+      "consultorio": "301 Diseño Sonrisa",
+      "doctor": "Erika Serna"
+    },
+    "id": 16
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Blanqueamiento",
+      "consultorio": "101 Blanqueamiento",
+      "doctor": "Jorge Muñoz"
+    },
+    "id": 17
+  },
+  {
+    "tratamiento": {
+      "especialidad": "Imagenología",
+      "consultorio": "501 Rayos X",
+      "doctor": "Mateo García"
+    },
+    "id": 18
+  }
+]
