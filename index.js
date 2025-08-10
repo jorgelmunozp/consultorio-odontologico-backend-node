@@ -1,25 +1,25 @@
 // DEV
-// const ip = 'localhost';
-// const puerto = '3000';
-// const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
-// const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
-// const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
-// const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
-// const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
-// const urlApiEspecialidades = 'http://'+ip+':'+puerto+'/especialidades';
-// const urlApiGeneros = 'http://'+ip+':'+puerto+'/generos';
-// const urlApiEpss = 'http://'+ip+':'+puerto+'/epss';
+const ip = 'localhost';
+const puerto = '3000';
+const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
+const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
+const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
+const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
+const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
+const urlApiEspecialidades = 'http://'+ip+':'+puerto+'/especialidades';
+const urlApiGeneros = 'http://'+ip+':'+puerto+'/generos';
+const urlApiEpss = 'http://'+ip+':'+puerto+'/epss';
 
 
 // NON-PROD
-const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas.json';
-const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes.json';
-const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
-const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios.json';
-const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
-const urlApiEspecialidades = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/especialidades.json';
-const urlApiGeneros = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/generos.json';
-const urlApiEpss = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/epss.json';
+// const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas.json';
+// const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes.json';
+// const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
+// const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios.json';
+// const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
+// const urlApiEspecialidades = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/especialidades.json';
+// const urlApiGeneros = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/generos.json';
+// const urlApiEpss = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/epss.json';
 
 // PROD
 // const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas';
@@ -154,12 +154,12 @@ fetch(urlApiTratamientos)                 //API REST para la simulación de la t
             bodyTratamientos[i] = `
               <tr>
                 <td> ${tratamientos[i].id} </td>
-                <td> ${tratamientos[i].tratamiento.nombre} </td>
+                <td> ${tratamientos[i].tratamiento.especialidad} </td>
                 <td> ${tratamientos[i].tratamiento.consultorio} </td>
                 <td> ${tratamientos[i].tratamiento.doctor} </td>
               </tr>
         `};
-
+ 
         const footerTratamientos = `
                 </table>
               </div>
@@ -208,40 +208,76 @@ fetch(urlApiDoctores)                 //API REST para la simulación de la tabla
           contenidoDoctores.innerHTML = headerDoctores + bodyDoctores.join('') + footerDoctores;
   });
 
-  fetch(urlApiConsultorios)                 //API REST para la simulación de la tabla consultorios de la base de datos
-    .then(response => response.json())
-    .then(consultorios => {
-        let contenidoConsultorios = document.getElementById('contenidoConsultorios');
-  
-        const headerConsultorios = ` 
-        <div class="columnaContenido">  
-        <hr/>
-        <h3> Consultorios Disponibles </h3>
-        <hr/>
-        <table border='1'>
+fetch(urlApiConsultorios)                 //API REST para la simulación de la tabla consultorios de la base de datos
+  .then(response => response.json())
+  .then(consultorios => {
+      let contenidoConsultorios = document.getElementById('contenidoConsultorios');
+
+      const headerConsultorios = ` 
+      <div class="columnaContenido">  
+      <hr/>
+      <h3> Consultorios Disponibles </h3>
+      <hr/>
+      <table border='1'>
+        <tr>
+          <th> N° </th>
+          <th> Número </th>
+          <th> Consultorio </th>
+        </tr>  
+      `;
+
+      let bodyConsultorios = [];
+      for (const [i] of consultorios.entries()) {
+        bodyConsultorios[i] = `
           <tr>
-            <th> N° </th>
-            <th> Número </th>
-            <th> Consultorio </th>
-          </tr>  
-        `;
+            <td> ${consultorios[i].id} </td>
+            <td> ${consultorios[i].consultorio.numero} </td>
+            <td> ${consultorios[i].consultorio.nombre} </td>
+          </tr> 
+      `};
 
-        let bodyConsultorios = [];
-        for (const [i] of consultorios.entries()) {
-          bodyConsultorios[i] = `
-            <tr>
-              <td> ${consultorios[i].id} </td>
-              <td> ${consultorios[i].consultorio.numero} </td>
-              <td> ${consultorios[i].consultorio.nombre} </td>
-            </tr> 
-        `};
+      const footerConsultorios = ` 
+            </table>
+          </div>        
+          <br></br><br></br><br></br><br></br><br></br><br></br>
 
-        const footerConsultorios = ` 
-              </table>
-            </div>        
-            <br></br><br></br><br></br><br></br><br></br><br></br>
+      `;
 
-        `;
+      contenidoConsultorios.innerHTML = headerConsultorios + bodyConsultorios.join('') + footerConsultorios;
+  });
 
-        contenidoConsultorios.innerHTML = headerConsultorios + bodyConsultorios.join('') + footerConsultorios;
+fetch(urlApiEspecialidades)                 //API REST para la simulación de la tabla consultorios de la base de datos
+  .then(response => response.json())
+  .then(especialidades => {
+      let contenidoEspecialidades = document.getElementById('contenidoEspecialidades');
+
+      const headerEspecialidades = ` 
+      <div class="columnaContenido">  
+      <hr/>
+      <h3> Especialidades Autorizadas </h3>
+      <hr/>
+      <table border='1'>
+        <tr>
+          <th> N° </th>
+          <th> Especialidad </th>
+        </tr>  
+      `;
+
+      let bodyEspecialidades = [];
+      for (const [i] of especialidades.entries()) {
+        bodyEspecialidades[i] = `
+          <tr>
+            <td> ${especialidades[i].id} </td>
+            <td> ${especialidades[i].especialidad.nombre} </td>
+          </tr> 
+      `};
+
+      const footerEspecialidades = ` 
+            </table>
+          </div>        
+          <br></br><br></br><br></br><br></br><br></br><br></br>
+
+      `;
+
+      contenidoEspecialidades.innerHTML = headerEspecialidades + bodyEspecialidades.join('') + footerEspecialidades;
   });
