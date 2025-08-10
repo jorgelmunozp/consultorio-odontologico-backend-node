@@ -1,25 +1,26 @@
 // DEV
-// const ip = 'localhost';
-// const puerto = '3000';
-// const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
-// const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
-// const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
-// const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
-// const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
-// const urlApiEspecialidades = 'http://'+ip+':'+puerto+'/especialidades';
-// const urlApiGeneros = 'http://'+ip+':'+puerto+'/generos';
-// const urlApiEpss = 'http://'+ip+':'+puerto+'/epss';
+const ip = 'localhost';
+const puerto = '3000';
+const urlApiCitas = 'http://'+ip+':'+puerto+'/citas';
+const urlApiPacientes = 'http://'+ip+':'+puerto+'/pacientes';
+const urlApiDoctores = 'http://'+ip+':'+puerto+'/doctores';
+const urlApiConsultorios = 'http://'+ip+':'+puerto+'/consultorios';
+const urlApiTratamientos = 'http://'+ip+':'+puerto+'/tratamientos';
+const urlApiEspecialidades = 'http://'+ip+':'+puerto+'/especialidades';
+const urlApiGeneros = 'http://'+ip+':'+puerto+'/generos';
+const urlApiEpss = 'http://'+ip+':'+puerto+'/epss';
 
 // NON-PROD
 // const urlApiDatabase = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/database.json';
-const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas.json';
-const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes.json';
-const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
-const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios.json';
-const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
-const urlApiEspecialidades = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/especialidades.json';
-const urlApiGeneros = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/generos.json';
-const urlApiEpss = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/epss.json';
+
+// const urlApiCitas = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/citas.json';
+// const urlApiPacientes = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/pacientes.json';
+// const urlApiDoctores = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/doctores.json';
+// const urlApiConsultorios = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/consultorios.json';
+// const urlApiTratamientos = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/tratamientos.json';
+// const urlApiEspecialidades = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/especialidades.json';
+// const urlApiGeneros = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/generos.json';
+// const urlApiEpss = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/epss.json';
 
 // PROD
 // const urlApiDatabase = 'https://jorgelmunozp.github.io/consultorio-odontologico-backend-node/database';
