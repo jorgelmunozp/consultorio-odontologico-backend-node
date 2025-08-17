@@ -857,6 +857,17 @@
         "doctor": "Jorge Muñoz",
         "tratamiento": "Higiene Oral"
       }
+    },
+    {
+      "id": "300",
+      "cita": {
+        "paciente": "Carlos Gómez",
+        "fecha": "2025-08-20",
+        "hora": "15:30",
+        "consultorio": "303 Ortodoncia",
+        "doctor": "Laura Martínez",
+        "tratamiento": "Brackets"
+      }
     }
   ],
   "pacientes": [
