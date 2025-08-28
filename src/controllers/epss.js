@@ -1,5 +1,5 @@
 import { ObjectId } from "mongodb";
-import { connectDB } from "../config/database.js";
+import { connectDB } from "../config/dbconnection.js";
 
 export async function getEpss(req, res) {
   const db = await connectDB();

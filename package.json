@@ -12,10 +12,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "debug": "~2.6.9",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "gh-pages": "^6.3.0",
-    "mongodb": "^6.18.0",
-    "mongoose": "^8.17.1"
+    "mongodb": "^6.18.0"
   },
   "description": "<h1 align=\"center\">El Consultorio </h1>\r <h2 align=\"center\">Backend NodeJs App </h2>",
   "main": "index.js",
