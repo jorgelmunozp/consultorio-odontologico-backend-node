@@ -1,7 +1,7 @@
 services:
   api:
     build: .
-    container_name: nest_api
+    container_name: consultorio-odontologico-backend-node
     restart: always
     ports:
       - "3000:3000"
