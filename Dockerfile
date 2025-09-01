@@ -13,9 +13,6 @@ RUN npm install
 # Copiamos el resto del código
 COPY . .
 
-# Compilamos Nest a dist/
-RUN npm run build
-
 
 # ===========================
 # 2. Etapa de ejecución
