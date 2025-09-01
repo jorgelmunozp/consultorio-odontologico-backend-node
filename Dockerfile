@@ -24,9 +24,10 @@ WORKDIR /usr/src/app
 # Copiamos solo lo necesario desde la etapa de builder
 COPY --from=builder /usr/src/app/package*.json ./
 COPY --from=builder /usr/src/app/node_modules ./node_modules
-COPY --from=builder /usr/src/app/dist ./dist
+COPY --from=builder /usr/src/app ./
 
-# Puerto que expone Nest por defecto
+
+# Puerto que expone por defecto
 EXPOSE 3000
 
 # Comando de inicio en producción
