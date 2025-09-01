@@ -7,7 +7,8 @@
     "start": "node index.js",
     "predeploy": "harp ./public ./build",
     "deploy": "gh-pages -d build",
-    "dev": "node --watch index.js"
+    "dev": "node --watch index.js",
+    "build": "nest build"
   },
   "dependencies": {
     "cors": "^2.8.5",
