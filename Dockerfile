@@ -1,34 +1,20 @@
-# ===========================
-# 1. Etapa de construcción
-# ===========================
-FROM node:20-alpine AS builder
+# Usar la imagen oficial de Node.js basada en Alpine
+FROM node:20-alpine
 
+# Establecer el directorio de trabajo dentro del contenedor
 WORKDIR /usr/src/app
 
-# Copiamos solo package.json y package-lock.json primero (para cachear dependencias)
+# Copiar los archivos package.json y package-lock.json al contenedor
 COPY package*.json ./
 
-RUN npm install
+# Instalar las dependencias del proyecto
+RUN npm install --only=production
 
-# Copiamos el resto del código
+# Copiar el resto de los archivos del proyecto al contenedor
 COPY . .
 
-
-# ===========================
-# 2. Etapa de ejecución
-# ===========================
-FROM node:20-alpine AS runner
-
-WORKDIR /usr/src/app
-
-# Copiamos solo lo necesario desde la etapa de builder
-COPY --from=builder /usr/src/app/package*.json ./
-COPY --from=builder /usr/src/app/node_modules ./node_modules
-COPY --from=builder /usr/src/app ./
-
-
-# Puerto que expone por defecto
+# Exponer el puerto en el que la aplicación escuchará
 EXPOSE 3000
 
-# Comando de inicio en producción
-CMD ["node", "dist/main"]
+# Definir el comando para iniciar la aplicación
+CMD ["npm", "start"]
